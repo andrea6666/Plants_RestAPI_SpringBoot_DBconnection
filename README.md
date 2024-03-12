@@ -4,7 +4,7 @@
 
 ### Reqirements:
 #### All reqirements are in [pom.xml](Plants_SpringBootRestApi/pom.xml)
-#### Here is exported Postman [collection ]()
+#### Here is exported Postman [collection ](Plants.postman_collection.json)
 
 ## Postman - showing all functionalities
 ### Here you can see application tested in Postman:
