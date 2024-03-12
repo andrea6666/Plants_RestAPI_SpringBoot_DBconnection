@@ -1,0 +1,214 @@
+{
+	"info": {
+		"_postman_id": "cc369506-9e95-4de3-8bdb-3f70155ecc0c",
+		"name": "Plants",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18808089"
+	},
+	"item": [
+		{
+			"name": "GetAllPlants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/plants/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"plants",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AddPlant",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/plants/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"plants",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPlantById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/plants/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"plants",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPlantByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/plants/name/CoSMOs",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"plants",
+						"name",
+						"CoSMOs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SearchPlantByAnyArguement",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/plants/search/well-drained soil.Water sun",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"plants",
+						"search",
+						"well-drained soil.Water sun"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePlant",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/plants/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"plants",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletePlant",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/plants/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"plants",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteAllPlants",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/plants/delete/all",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"plants",
+						"delete",
+						"all"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "localhost:8080/plants/",
+			"type": "string"
+		},
+		{
+			"key": "id",
+			"value": "1"
+		}
+	]
+}
