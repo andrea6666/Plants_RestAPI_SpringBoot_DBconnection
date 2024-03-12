@@ -9,6 +9,7 @@
 ## Postman - showing all functionalities
 ### Here you can see application tested in Postman:
 
-https://github.com/andrea6666/Plants_RestAPI_SpringBoot_DBconnection/assets/45822712/b3c3e2fd-ee84-4607-9307-7a8fbcaae4b0
+https://github.com/andrea6666/Plants_RestAPI_SpringBoot_DBconnection/assets/45822712/ce4b5f9e-ac45-4143-aab1-3b57cde732b7
+
 
 
